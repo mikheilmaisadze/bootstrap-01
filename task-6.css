@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "monster";
+}
+
+@font-face {
+    font-family: "monster";
+    src: url("monster.ttf");
+}
+
+/* Media///////////////////// */
+@media screen and (max-width: 768px) {
+    .navbar-nav, .log, .nav-link {
+        margin: 0 !important;
+    }
+  .nav-link, .nav-item {
+   text-align: center;
+  }
+}
+/* MEdia///////////////////// */
+
+.nav-link {
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+margin-inline-start: 120px;
+}
+
+.log {
+    margin-inline-start: 340px;
+    margin-inline-end: 45px;
+}
+
+.box-1 {
+    color: #252B42;
+    padding-top: 154px;
+}
+
+.box-2 {
+    background-image: url("technology\ 1\ \(2\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 826px;
+}
+
+.visit {
+    color: #252B42;
+    margin-top: 106px;
+    margin-bottom: 80px;
+}
+
+.card i {
+    font-size: 72px;
+}
+
+.onto {
+    background-color: #252B42;
+    height: 403px;
+}
+
+.bottom {
+    margin-bottom: 79px;
+}
+
+.arrow {
+    color: #252B42;
+    margin-bottom: 137px;
+}
+
+line h3 {
+    font-size: 240px;
+    color: #252B42;
+}
+
+.line {
+    margin-bottom: 107px;
+}
+
